@@ -1,0 +1,33 @@
+{
+  "geode": "4.0.0",
+  "gd": {
+    "win": "2.2074",
+    "android": "2.2074",
+    "mac": "2.2074",
+    "ios": "2.2074"
+  },
+  "id": "hammadus.ai_text_menu",
+  "name": "AI Text Menu",
+  "version": "v1.0.0",
+  "developer": "hammadus",
+  "description": "Chat with an AI from inside Geometry Dash using a simple text menu.",
+  "settings": {
+    "api-key": {
+      "type": "string",
+      "name": "API Key",
+      "description": "Your AI provider API key. Stored only on your device.",
+      "default": ""
+    },
+    "api-url": {
+      "type": "string",
+      "name": "API URL",
+      "description": "Any OpenAI-compatible chat completions endpoint.",
+      "default": "https://api.openai.com/v1/chat/completions"
+    },
+    "model": {
+      "type": "string",
+      "name": "Model",
+      "default": "gpt-4o-mini"
+    }
+  }
+}
